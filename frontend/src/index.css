@@ -1,0 +1,27 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+}
+
+body {
+  background-color: lightcyan;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+body p {
+  font-size: large;
+}
+
+body ul li {
+  font-size: large;
+}
+
+hr {
+  margin-top: 1em;
+  border: 1px solid black;
+  border-radius: 5px;
+}

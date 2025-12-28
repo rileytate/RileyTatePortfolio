@@ -1,0 +1,19 @@
+.interest_card {
+    width: 35%;
+    background-color: lightblue;
+    border-radius: 2em;
+    box-shadow: 4px 4px 8px #888;
+    padding: 1em;
+}
+
+.card_section {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    flex-wrap: wrap;
+    
+}
+
+.card_section h1 {
+    text-align: center;
+}

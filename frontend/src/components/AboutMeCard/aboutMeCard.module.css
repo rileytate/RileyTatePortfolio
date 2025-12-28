@@ -1,0 +1,43 @@
+.about_me_card {
+    margin: 2em;
+    padding: 2em;
+    width: 70%;
+    border-radius: 2em;
+    background-color: lightblue;
+    box-shadow: 4px 4px 8px #888;
+    
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+}
+
+.right_section {
+    display: block;
+    padding: 2em;
+}
+
+.profile_photo {
+    width: 10em;
+    border-radius: 2em;
+}
+
+.buttons {
+    margin-top: 2em;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    
+    gap: 2em;
+}
+
+.details {
+
+}
+
+.image {
+    width: 30em;
+    border-radius: 2em;
+    border-color: darkblue;
+}

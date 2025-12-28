@@ -1,0 +1,20 @@
+.scroll_container {
+  /* Enables horizontal scrolling when content overflows */
+  overflow-x: auto; 
+  /* Hides vertical scrollbar */
+  overflow-y: hidden; 
+  /* Prevents images from wrapping to the next line */
+  white-space: nowrap; 
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.scroll_container img {
+  /* Keeps images in a single line */
+  display: inline-block; 
+  padding: 10px;
+  /* Adjust image size as needed */
+  width: 200px; 
+  /* height: auto; */
+  object-fit: cover;
+}
