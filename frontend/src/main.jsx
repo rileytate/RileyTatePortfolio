@@ -11,7 +11,8 @@ const router = createBrowserRouter([
   {path: "/", element: <HomePage />},
   {path: "/AboutMe", element: <AboutMePage />},
   {path: "/Projects", element: <ProjectsPage />},
-  {path: "/Experiences", element: <ExperiencePage />}
+  {path: "/Experiences", element: <ExperiencePage />},
+  {path: "*", element: <HomePage />}
 ]);
 
 createRoot(document.getElementById('root')).render(
