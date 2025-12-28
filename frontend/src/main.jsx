@@ -8,10 +8,10 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import ExperiencePage from './pages/ExperiencePage.jsx'
 
 const router = createBrowserRouter([
-  {path: "/", element: <HomePage />},
-  {path: "/AboutMe", element: <AboutMePage />},
-  {path: "/Projects", element: <ProjectsPage />},
-  {path: "/Experiences", element: <ExperiencePage />},
+  {path: "/RileyTatePortfolio/", element: <HomePage />},
+  {path: "/RileyTatePortfolio/AboutMe", element: <AboutMePage />},
+  {path: "/RileyTatePortfolio/Projects", element: <ProjectsPage />},
+  {path: "/RileyTatePortfolio/Experiences", element: <ExperiencePage />},
   {path: "*", element: <HomePage />}
 ]);
 
